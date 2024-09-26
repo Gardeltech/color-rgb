@@ -40,3 +40,11 @@ p {
   margin: 10px;
   padding: 10px 5px;
 }
+
+.color:nth-child(even) {
+  background-color: rgb(197, 58, 58);
+}
+
+.color:nth-child(odd) {
+  background-color: rgb(41, 123, 179);
+}
