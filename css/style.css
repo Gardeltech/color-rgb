@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh; /*alto pantalla*/
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 93, 124);
+}
+
+.container {
+  width: 50vw; /*ancho pantalla*/
+  max-width: 300px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+p {
+  margin: 10px;
+  padding: 10px 5px;
+}
